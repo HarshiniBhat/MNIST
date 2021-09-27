@@ -121,4 +121,4 @@ class Net(nn.Module):
   ![](accuracy.png)
   For each epoch we calculated the loss and accuracy and  we reached our target of accuracy 99.4%
   ## Plotting the Loss curve and the accuracy curve varying for different epochs
-  ![](loss-accuracy.png)
+  ![](loos-accuracy.png)
