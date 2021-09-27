@@ -112,9 +112,12 @@ class Net(nn.Module):
 
   ```
   Here we defined a network with 3 convolution blocks and a transition layer between each convolution block. we used regularisation tehniques like batch normalisation,and dropout to optimize the output .
+  ## checking the parameters through summary
+  ![](params.png)
 
   ## Evaluating the Model
-  For each epoch we calculated the loss and accuracy and ensured that we reached our target 
+  
   ![](accuracy.png)
+  For each epoch we calculated the loss and accuracy and  we reached our target of accuracy 99.4%
   ## Plotting the Loss curve and the accuracy curve varying for different epochs
   ![](loss-accuracy.png)
