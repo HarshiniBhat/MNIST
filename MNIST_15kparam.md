@@ -1,5 +1,5 @@
 
-# Training MNIST Dataset with less than 20k PARAMETERS
+# Training MNIST Dataset with less than 15k PARAMETERS
 
 
 Our target is to achieve:
@@ -22,7 +22,7 @@ Our target is to achieve:
   
 # Data Visualisation
 
-![]()
+![](data.png)
 ## Defining the network
 ```python
 
@@ -115,6 +115,6 @@ class Net(nn.Module):
 
   ## Evaluating the Model
   For each epoch we calculated the loss and accuracy and ensured that we reached our target 
-  ![]()
+  ![](accuracy.png)
   ## Plotting the Loss curve and the accuracy curve varying for different epochs
-  ![]()
+  ![](loss-accuracy.png)
