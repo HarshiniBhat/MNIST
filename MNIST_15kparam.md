@@ -114,6 +114,7 @@ class Net(nn.Module):
   Here we defined a network with 3 convolution blocks and a transition layer between each convolution block. we used regularisation tehniques like batch normalisation,and dropout to optimize the output .
   ## checking the parameters through summary
   ![](params.png)
+  There are totally 13154 parameters in the network 
 
   ## Evaluating the Model
   
